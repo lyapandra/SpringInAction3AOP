@@ -1,41 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <groupId>com</groupId>
+    <!--<groupId>com.vonzhou.learning</groupId>-->
+    <artifactId>java</artifactId>
+    <!--<artifactId>SpringInAction</artifactId>-->
+    <packaging>pom</packaging>
+    <version>0.0.1</version>
 
-    <groupId>com.vonzhou.springinaction</groupId>
-    <artifactId>springidol-aop</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <!--<module>spitter-persistence-mybatis</module>
+        <module>spitter-persistence-jdbc-conventional</module>
+        <module>spitter-persistence-jdbc-template</module>
+        <module>spitter-persistence-hibernate-contextual-session</module>
+        <module>spitter-persistence-jpa</module>
 
-    <properties>
-        <spring.group>org.springframework</spring.group>
-        <spring.version>3.0.2.RELEASE</spring.version>
-    </properties>
+        <module>spitter-web</module>
+        <module>spitter-web-rest</module>
+        <module>spitter-web-security</module>
 
-    <dependencies>
-        <dependency>
-            <groupId>${spring.group}</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>${spring.group}</groupId>
-            <artifactId>spring-aop</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>1.6.4</version>
-        </dependency>
+        <module>spitter-remoting-client</module>
+        <module>spitter-remoting-httpinvoker</module>
+        <module>spitter-remoting-rmi</module>
 
+        <module>springidol</module>-->
+        <module>ch04_Springidol-aop</module>
+        <!--<module>springidol-aspectj</module>
+        <module>springidol-autodiscovery</module>
 
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.7</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+        <module>CartApp</module>
+        <module>hello-hessian</module>
+        <module>hello-hessian-spring</module>
+        <module>hello-hessian-spring-client</module>
+
+        <module>messaging</module>
+        <module>knights</module>
+
+        <module>spitter-service-programmatic-tx</module>
+        <module>spitter-service-declarative-tx</module>
+
+        <module>SpringPizza</module>
+        <module>spitter-web-aop</module>
+        <module>spitter-web-aop2</module>
+
+        <module>spring-interceptor</module>
+
+        <module>spring-project-empty</module>-->
+
+    </modules>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+    </build>
+
 </project>

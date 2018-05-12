@@ -1,5 +1,3 @@
-package com.vonzhou.springinaction.springidolaop;
-
 /**
  * gracious 高尚的
  */
