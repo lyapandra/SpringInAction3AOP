@@ -9,6 +9,6 @@ public class Guitar implements Instrument {
         }catch (Exception e){
             e.printStackTrace();
         }
-        System.out.println("Strum strum strum");
+        System.out.println("play Strum strum strum");
     }
 }

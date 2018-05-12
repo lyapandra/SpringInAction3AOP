@@ -18,11 +18,17 @@
         expression="execution(* 
         com.vonzhou.springinaction.springidolaop.Thinker.thinkOfSomething(String))
              and args(thoughts)" />
+      <!--<aop:pointcut id="answering"
+                    expression="execution(*
+        com.vonzhou.springinaction.springidolaop.Thinker.getThoughts())" />-->
           
       <aop:before 
           pointcut-ref="thinking"
           method="interceptThoughts" 
           arg-names="thoughts" />
+      <!--<aop:after
+              pointcut-ref="answering"
+              method="getThoughts" />-->
     </aop:aspect>
   </aop:config>
 

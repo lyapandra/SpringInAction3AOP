@@ -21,7 +21,7 @@
         <aop:aspect ref="audience">
             <aop:pointcut id="performance" expression=
                     "execution(* com.vonzhou.springinaction.springidolaop.Performer.perform(..))"
-            /> <!--定义一个切点,消除冗余-->
+            /> <!--定义一个切点,消除冗余 Визначити точку набору, видалити надмірність-->
 
             <aop:before
                     pointcut-ref="performance"

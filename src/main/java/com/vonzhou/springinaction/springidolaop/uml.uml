@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="310.0">com.vonzhou.springinaction.springidolaop.PerformanceException</node>
+    <node x="0.0" y="155.0">com.vonzhou.springinaction.springidolaop.MindReader</node>
+    <node x="7.5" y="235.0">com.vonzhou.springinaction.springidolaop.Magician</node>
+    <node x="312.0" y="385.0">com.vonzhou.springinaction.springidolaop.Stutter</node>
+    <node x="197.0" y="80.0">com.vonzhou.springinaction.springidolaop.Instrumentalist</node>
+    <node x="170.0" y="235.0">com.vonzhou.springinaction.springidolaop.Guitar</node>
+    <node x="306.3165127764656" y="320.85784840025764">com.vonzhou.springinaction.springidolaop.Volunteer</node>
+    <node x="23.0" y="0.0">com.vonzhou.springinaction.springidolaop.Contestant</node>
+    <node x="313.5" y="155.0">com.vonzhou.springinaction.springidolaop.Thinker</node>
+    <node x="169.0" y="385.0">com.vonzhou.springinaction.springidolaop.Audience</node>
+    <node x="0.0" y="80.0">com.vonzhou.springinaction.springidolaop.GraciousContestant</node>
+    <node x="212.0" y="310.0">com.vonzhou.springinaction.springidolaop.AroundAudience</node>
+    <node x="210.0" y="0.0">com.vonzhou.springinaction.springidolaop.Performer</node>
+    <node x="157.0" y="155.0">com.vonzhou.springinaction.springidolaop.Instrument</node>
+    <node x="0.0" y="385.0">com.vonzhou.springinaction.springidolaop.MagicianMain</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vonzhou.springinaction.springidolaop.Guitar" target="com.vonzhou.springinaction.springidolaop.Instrument">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.vonzhou.springinaction.springidolaop.Volunteer" target="com.vonzhou.springinaction.springidolaop.Thinker">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.vonzhou.springinaction.springidolaop.Magician" target="com.vonzhou.springinaction.springidolaop.MindReader">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.vonzhou.springinaction.springidolaop.Instrumentalist" target="com.vonzhou.springinaction.springidolaop.Performer">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.vonzhou.springinaction.springidolaop.GraciousContestant" target="com.vonzhou.springinaction.springidolaop.Contestant">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1880102040816327" x="135.021902512347" y="209.21344213012668" />
+  <SelectedNodes>
+    <node>com.vonzhou.springinaction.springidolaop.Volunteer</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

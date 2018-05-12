@@ -5,8 +5,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * Created by vonzhou on 16/7/22.
+ * try {
+ *             performer.perform();
  */
-public class Main {
+public class MainPerform {
     public static void main(String[] args) {
 //        ApplicationContext context = new ClassPathXmlApplicationContext("spring-idol.xml");
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-idol-2.xml");
